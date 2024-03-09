@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F27B2208-EF5A-B0A5-DFFB-2301F991B6D1" name="STATUS CHAMADO">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>4C0E70E9-37EF-A267-FEE3-0815EAC1A9D1</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STATUS CHAMADO" id="E68C093C-B801-668D-41C4-B242B08732E2">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>ED462901-5D1A-DB73-6D7A-4182FB207DDD</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4603DA31-5593-0DC6-5269-26FD32D9CF02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="C9E40ABE-CC24-4DAF-1FD1-096AE5FE80DE">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>EA9D7D80-8673-FF57-71BB-96F8BBB620F5</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7F6854B4-D07C-E090-2CEA-069A9AEAD76C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="4EE80F63-894B-D965-F9F8-3B0F44E6519C">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>A929B5BE-0069-B869-72A5-888E5FC1880E</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E7C58C72-F166-CCB4-4CE1-CB8F0FA20A79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E499D4C-EB9F-930F-B74E-666A25E0395E" name="STATUS CHAMADO PK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>0039C6B3-581C-8B09-C500-3F02A7C812A9</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E68C093C-B801-668D-41C4-B242B08732E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

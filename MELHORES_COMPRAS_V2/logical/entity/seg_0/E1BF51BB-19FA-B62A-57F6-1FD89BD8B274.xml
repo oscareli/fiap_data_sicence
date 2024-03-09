@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1BF51BB-19FA-B62A-57F6-1FD89BD8B274" name="PESSOA FISICA CLIENTE">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>0B9E4639-F4FB-E28C-7D36-F443D6A288E3</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD CLIENTE" id="A2F9E368-89AE-5726-A1C9-704D1E1E7381">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>641F6C88-CDD2-92B7-4058-47E07C97BBE9</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<referedAttribute>35EDF5D8-666B-6D6B-9FF9-063A1BFD14C5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4603DA31-5593-0DC6-5269-26FD32D9CF02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="810B3BF7-1AD5-1216-5A58-F8C9AF11FB05">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>8AC097B7-DCD1-7F79-7463-348CD6EA5DFB</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E7C58C72-F166-CCB4-4CE1-CB8F0FA20A79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA NASC" id="C2966955-B5B0-3170-F9C0-97B077055FD2">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>71A26EDE-DDA9-4D2D-AF10-472D7AD4FEF7</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>91A79060-5397-A274-6EBF-CCC3A67F898A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEXO BIOLOGICO" id="43096642-0314-A9C1-C8AE-E7602DA87EAC">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>9684D467-3497-857B-657E-7950C874FF69</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7F6854B4-D07C-E090-2CEA-069A9AEAD76C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO" id="83775495-639A-FE91-4582-0D29C5088833">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>028CEDDF-4BEB-DF68-4108-B19B56A5A522</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E7C58C72-F166-CCB4-4CE1-CB8F0FA20A79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="491085CF-A661-E88F-DE27-A1D27BD9259B" name="PESSOA FISICA CLIENTE PK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>1880F312-A0DB-8174-3896-A64126287BA4</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2F9E368-89AE-5726-A1C9-704D1E1E7381</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8F03EE4A-FDFB-A538-7DEF-8CAA3CAADB0E" name="INDEX 1v2">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>975BF7AA-4507-F898-7994-A61DE1989E2F</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>810B3BF7-1AD5-1216-5A58-F8C9AF11FB05</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

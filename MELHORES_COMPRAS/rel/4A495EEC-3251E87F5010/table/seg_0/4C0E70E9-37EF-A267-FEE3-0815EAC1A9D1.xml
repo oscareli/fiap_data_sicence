@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C0E70E9-37EF-A267-FEE3-0815EAC1A9D1" name="STATUS_CHAMADO">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<importedID>761CE7F3-596A-1BEB-2683-40150CE02784</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STATUS_CHAMADO" id="ED462901-5D1A-DB73-6D7A-4182FB207DDD">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<importedID>F3A69E50-7FBD-8F7E-4882-CF164A46960B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4603DA31-5593-0DC6-5269-26FD32D9CF02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="EA9D7D80-8673-FF57-71BB-96F8BBB620F5">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<importedID>3AF996AF-19D7-DD17-9C14-B89989C4048C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7F6854B4-D07C-E090-2CEA-069A9AEAD76C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="A929B5BE-0069-B869-72A5-888E5FC1880E">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<importedID>25FB110C-7C56-5388-AE8A-83D77FCCDFD0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E7C58C72-F166-CCB4-4CE1-CB8F0FA20A79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0039C6B3-581C-8B09-C500-3F02A7C812A9" name="STATUS_CHAMADO_PK">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<importedID>2539E59F-746F-177F-D719-D5C99B7B7921</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED462901-5D1A-DB73-6D7A-4182FB207DDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

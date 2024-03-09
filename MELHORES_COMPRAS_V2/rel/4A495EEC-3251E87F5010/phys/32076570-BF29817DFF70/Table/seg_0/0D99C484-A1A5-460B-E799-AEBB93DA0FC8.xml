@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LEAD" directorySegmentName="seg_0" id="0D99C484-A1A5-460B-E799-AEBB93DA0FC8">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TAXA_CONVERSAO_CLIENTE" id="06F5E449-B53C-D4D2-7C41-F421A99DC485">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAXA_CONVERSAO_PRODUTO" id="2E1AF245-797B-F544-F189-B0B846FE08E5">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FUNCIONARIO" id="3D0B6E5B-2565-9037-2302-7E56EE2EBE38">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLIENTE" id="4FE5B114-5590-27C4-8F46-EAB5027FB538">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_PRODUTO_COMERCIALIZADO" id="708D7A83-2510-0970-6740-273BC448CE7A">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VIDEO" id="C98BDE31-83DD-FDCB-FFF2-DCED0C05B152">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUTO" id="F26E6B3D-7AEB-8A4F-DCF2-C9975C9869B5">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LEAD_PRODUTO_FK" id="61FFE9AA-921C-AAC0-C27B-EEFAD83D7903">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LEAD_VIDEO_FK" id="6943A837-3389-0134-CCFB-62F3997CAC45">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LEAD_CLIENTE_FK" id="72895A36-CE92-0ED6-7F01-B280E641CBB1">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LEAD_FUNCIONARIO_FK" id="7EED49C6-E451-C9DD-BE59-A10CA2A0E930">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LEAD_PK" id="C727E046-96AD-22EB-E209-A4E8F11C3B16">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

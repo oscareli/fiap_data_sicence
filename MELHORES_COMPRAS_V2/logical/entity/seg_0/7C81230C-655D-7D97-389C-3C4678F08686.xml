@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C81230C-655D-7D97-389C-3C4678F08686" name="STATUS ATIVO">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>09B29E8C-8DAD-BDD6-D63D-819DDFB047DE</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD STATUS" id="18385BA5-9CBD-D611-EF8B-A0732C6A61E9">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>65DBA810-7916-CC7B-599B-E6E7DC95C01F</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4603DA31-5593-0DC6-5269-26FD32D9CF02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="51F9E14E-5238-B32C-A791-EC2593EEA341">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>45B60265-BDFD-0690-5B3D-C216EB06948F</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D3EE87BF-44B9-F153-423A-4A88B84D5D59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E9FE3C2-6F6A-89DB-17A3-B69245933154" name="STATUS ATIVO PK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>74BF1685-78A8-FFFD-CD5B-9F69914C2399</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18385BA5-9CBD-D611-EF8B-A0732C6A61E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

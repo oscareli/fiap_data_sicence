@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STATUS_ATIVO" directorySegmentName="seg_0" id="09B29E8C-8DAD-BDD6-D63D-819DDFB047DE">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRICAO" id="45B60265-BDFD-0690-5B3D-C216EB06948F">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_STATUS" id="65DBA810-7916-CC7B-599B-E6E7DC95C01F">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STATUS_ATIVO_PK" id="74BF1685-78A8-FFFD-CD5B-9F69914C2399">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

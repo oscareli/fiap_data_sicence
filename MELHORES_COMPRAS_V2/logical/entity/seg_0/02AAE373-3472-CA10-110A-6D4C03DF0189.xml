@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02AAE373-3472-CA10-110A-6D4C03DF0189" name="SUGESTAO CHAMADO">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>68950921-FE30-9D64-CAED-694AEE7C3BA1</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD CHAMADO" id="92D45A7F-7AFB-AD0B-1308-437F2E182967">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 02:22:57 UTC</createdTime>
+<generatorID>0D415718-36B9-B1ED-9140-B742D08F6DD7</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<referedAttribute>822EA992-5FD8-D244-1AB5-8724D19D0E98</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4603DA31-5593-0DC6-5269-26FD32D9CF02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUGESTAO" id="D054D0F3-DC45-6E83-E7BD-00CB98C3A185">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>30561DC9-B366-735B-006C-0339C67812CF</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9EFDB481-D717-D627-1788-A1BD2E42A2A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CFFF484-2337-706D-51D5-2795FCEC4A9A" name="SUGESTAO CHAMADO PK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>56C89AFE-88E5-9153-8E75-C320B631F439</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92D45A7F-7AFB-AD0B-1308-437F2E182967</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

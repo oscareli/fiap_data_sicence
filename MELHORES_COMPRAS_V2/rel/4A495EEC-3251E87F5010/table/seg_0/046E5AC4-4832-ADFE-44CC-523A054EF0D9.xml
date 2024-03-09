@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="046E5AC4-4832-ADFE-44CC-523A054EF0D9" name="T_CLIENTE">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>CA09335A-1203-2331-F079-C813502A6E59</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="4F958AF8-637B-1516-F848-A435B323D99A">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>3B92C842-65FC-99B6-D644-52A744F736D6</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_pessoa" id="8EA06B8F-7C46-6960-A042-3401CC6640FD">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>71A8E211-7D80-99E8-3965-0627523746FF</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="A17B1B2C-A580-FC5A-5882-6F461A853C1C">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>E64EA07C-03E6-8360-F751-AEFB90025C31</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAED2F0C-D78A-B417-38AB-B49986E370FB" name="T_CLIENTE_PK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>7B28C4CD-5B46-8471-C356-9A1F4548BBDD</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F958AF8-637B-1516-F848-A435B323D99A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

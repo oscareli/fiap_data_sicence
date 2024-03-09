@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MELHORES_COMPRAS" id="4276F8B5-F2B2-53EF-4B7A-556F48377EAF" version="3.5">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-08 23:43:22 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4276F8B5-F2B2-53EF-4B7A-556F48377EAF</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DF5FB9AB-B6CD-F898-8ECA-00542B69558A">
+<designStoragePath>C:\MELHORES_COMPRAS</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4276F8B5-F2B2-53EF-4B7A-556F48377EAF">
+<designStoragePath>C:\Users\oscar\Projects\fiap.com.br\Fase 1\fiap_data_sicence\MELHORES_COMPRAS</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

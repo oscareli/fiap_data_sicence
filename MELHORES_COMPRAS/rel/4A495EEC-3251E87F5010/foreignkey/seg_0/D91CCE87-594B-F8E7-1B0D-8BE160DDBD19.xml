@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D91CCE87-594B-F8E7-1B0D-8BE160DDBD19" containerWithKeyObject="6C7E961D-33EE-10A5-964E-8BC7F1649041" localFKIndex="CBD3914E-7065-3A7B-D119-AF8B876D4BEE" name="CHAMADO_SUGESTAO_CHAMADO_FK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:38:12 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<referredTableLongName>SUGESTAO_CHAMADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>68950921-FE30-9D64-CAED-694AEE7C3BA1</referredTableID>
+<keyObject>56C89AFE-88E5-9153-8E75-C320B631F439</keyObject>
+<referredKeyID>56C89AFE-88E5-9153-8E75-C320B631F439</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_CHAMADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

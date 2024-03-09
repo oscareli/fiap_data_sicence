@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C7E961D-33EE-10A5-964E-8BC7F1649041" name="CHAMADO">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 00:42:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<importedID>A95FC9BE-76A6-3876-CD21-A8421DC95D2E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CHAMADO" id="BE6EF5F0-838D-0101-00A0-3C8EC2979DFD">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:04:55 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4603DA31-5593-0DC6-5269-26FD32D9CF02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D91CCE87-594B-F8E7-1B0D-8BE160DDBD19" referredColumn="49DA54E1-99E5-B67F-40C9-9D77D338F34C"/>
+</associations>
+</Column>
+<Column name="CLIENTE" id="169D35BC-EFBC-7DAA-30E2-85610EEF7984">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:06:15 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4603DA31-5593-0DC6-5269-26FD32D9CF02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A94385E0-8B9D-87CE-5999-0D032BAF2C0B" referredColumn="7F967AA9-9BE4-4C5D-DC5A-49188E511567"/>
+</associations>
+</Column>
+<Column name="FUNCIONARIO" id="365F23E2-00DF-1846-C207-B2D08DC5E7CC">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:06:34 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4603DA31-5593-0DC6-5269-26FD32D9CF02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B3D28FB-7D43-F507-AC11-DDC0B951EBA3" referredColumn="050F29B9-998E-B9F1-A8FA-C52D6D8A35B8"/>
+</associations>
+</Column>
+<Column name="PRODUTO" id="D9A93E2B-EC56-1FE7-D41D-FA826C47842D">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:06:51 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4603DA31-5593-0DC6-5269-26FD32D9CF02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E1CDFB4-0646-1E14-9B20-B548E3EED2A0" referredColumn="C2FBDB98-EE85-7A48-457B-3BD295B289FD"/>
+</associations>
+</Column>
+<Column name="DATA_ABERTURA_CHAMADO" id="06CB540C-F3EC-F0F6-A6E9-C49A4F0E26B5">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:07:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_FECHAMENTO_CHAMADO" id="6023F5AD-7AF4-2F0B-82E0-03D0AA0A1A87">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:09:11 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ATENDIMENTO" id="F0D83BDB-8961-A5E6-8455-A82C25E8157F">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:09:39 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_CHAMADO" id="F06EF82E-9149-3EAB-D6FA-67E4F21354F1">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:10:59 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4603DA31-5593-0DC6-5269-26FD32D9CF02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="801B02AA-1DB4-7851-0768-081D29C97495" referredColumn="ED462901-5D1A-DB73-6D7A-4182FB207DDD"/>
+</associations>
+</Column>
+<Column name="TEMPO_ATENDIMENTO" id="830F065C-ADCD-D7A4-8B56-2BAD02953DDC">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:10:59 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SATISFACAO" id="99D54ABA-271A-BCE6-C29E-9FCF7752CDE3">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:11:19 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="19F80246-607D-1B2F-8013-8818CFE2B5D4">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:12:07 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEXTO_CHAMADO" id="3B503232-52B7-AE0A-6895-9F521792AB39">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:12:52 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64A72C38-A53D-4AD5-81FF-C4DCB4A5527E" name="CHAMADO_PK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:04:55 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE6EF5F0-838D-0101-00A0-3C8EC2979DFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07C70E1F-9F10-E51F-F40A-BCBDF0BBCAE7" name="FK_CHAMADO_CLIENTE">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:21:48 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="169D35BC-EFBC-7DAA-30E2-85610EEF7984"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DA8B663-85DA-759B-0DBF-C4AB7C87B07A" name="CHAMADO_FUNCIONARIO_FK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:24:28 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="365F23E2-00DF-1846-C207-B2D08DC5E7CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4C5A5D5-D01C-3E2F-C76D-31551D9FC61A" name="CHAMADO_PRODUTO_FK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:25:45 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9A93E2B-EC56-1FE7-D41D-FA826C47842D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73D9E6A9-A538-B678-1F4E-4B9C48FCD0DC" name="CHAMADO_STATUS_CHAMADO_FK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:26:33 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F06EF82E-9149-3EAB-D6FA-67E4F21354F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBD3914E-7065-3A7B-D119-AF8B876D4BEE" name="CHAMADO_SUGESTAO_CHAMADO_FK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:38:12 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE6EF5F0-838D-0101-00A0-3C8EC2979DFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

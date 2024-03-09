@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VIDEO_CLASSIFICACAO_VIDEO_FK" directorySegmentName="seg_0" id="AA86D573-BB23-FD4B-E8E7-447F07C37C2E">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:51:21 UTC</createdTime>
+<generatorID>B431BE67-DC92-17F9-CDC2-570305EC87B6</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<sourcePk>3CB70567-D180-D79A-DC28-C93E5AD31C8E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2DA544E-66C8-6A3E-CA71-AD1D67BC2D63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5AE01EAF-EDF7-366B-A832-A5D4BC2B8282</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

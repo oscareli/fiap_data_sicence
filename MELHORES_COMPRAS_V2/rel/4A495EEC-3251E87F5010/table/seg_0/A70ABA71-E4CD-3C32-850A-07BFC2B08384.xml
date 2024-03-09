@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A70ABA71-E4CD-3C32-850A-07BFC2B08384" name="T_PES_FISICA">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>6A1DDA02-1728-4384-3C44-8FAED94219CF</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="B1A1E1BA-7A45-487E-5647-2C65DB6B9C25">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>C9818495-18DD-85B3-5C1C-90C4EF4382CB</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ng_rg" id="CADAD53F-33B2-30B1-8A92-D979E1EF0934">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>AD4D6F88-0F67-0297-23B3-E640613FDC32</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="5CCE522C-A757-7BC5-6DC6-2C69EADF564F">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>AD036023-78FB-2DDC-6EE7-1C0441B2E519</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CLIENTE_cd_cliente" id="3E0AE067-53F2-94EE-C207-8F0976141F83">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>0EBBC57A-4799-A62E-8728-A0A0E6DB879A</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E87AC3C3-DA61-4962-8F6E-AE393D999D7B" referredColumn="4F958AF8-637B-1516-F848-A435B323D99A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53C490B2-EE6E-37E5-19D5-6BC7E951ECD0" name="T_PES_FISICA_PK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>84F8A311-A9A2-1575-8C8E-606BCED43B00</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1A1E1BA-7A45-487E-5647-2C65DB6B9C25"/>
+<colUsage columnID="3E0AE067-53F2-94EE-C207-8F0976141F83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF22A696-00A1-3BEF-566D-0C6E9C4D507B" name="T_PES_FISICA__IDX">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F88B3AB9-0E5F-BA5D-4C9B-308BDFBD5178</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3E0AE067-53F2-94EE-C207-8F0976141F83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5183A9F3-0B19-538F-A44E-C124D53A58A9" name="T_PES_FISICA_T_CLIENTE_FK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>F88B3AB9-0E5F-BA5D-4C9B-308BDFBD5178</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E0AE067-53F2-94EE-C207-8F0976141F83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

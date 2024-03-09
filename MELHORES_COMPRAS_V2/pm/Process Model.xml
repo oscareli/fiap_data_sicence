@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D3D360C2-FB75-9847-526E-E1ECF3D9295B">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-08 23:43:22 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

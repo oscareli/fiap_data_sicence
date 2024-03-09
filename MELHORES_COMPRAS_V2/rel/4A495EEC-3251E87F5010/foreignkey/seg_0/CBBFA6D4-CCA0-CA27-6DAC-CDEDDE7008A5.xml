@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBBFA6D4-CCA0-CA27-6DAC-CDEDDE7008A5" containerWithKeyObject="FE8DB564-8D04-FD57-9DF5-6DF543D473B6" localFKIndex="D1151B7D-FA7A-AB45-0CA3-5C12645B089B" name="DUVIDA_CHAMADO_CHAMADO_FK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 03:00:40 UTC</createdTime>
+<generatorID>734AF384-E692-7CC4-7185-F794389792A0</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<referredTableLongName>CHAMADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6C7E961D-33EE-10A5-964E-8BC7F1649041</referredTableID>
+<keyObject>64A72C38-A53D-4AD5-81FF-C4DCB4A5527E</keyObject>
+<referredKeyID>64A72C38-A53D-4AD5-81FF-C4DCB4A5527E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_CHAMADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78F5FDE9-17F0-05D8-4767-31AD9E3ECF4D" name="PRODUTOv1">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:44:53 UTC</createdTime>
+<generatorID>726284B7-0523-69D4-F63B-131D07ECDAEE</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PRODUTO" id="6BB3CA19-FA9F-CD82-9CE1-BD1E385743BE">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:44:53 UTC</createdTime>
+<generatorID>44AE37DE-A7A4-8D7D-DC6C-C5856225D4CC</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO_NORMAL" id="CE2DFBEB-2F7E-644B-AD05-8B76BFF1A126">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:44:53 UTC</createdTime>
+<generatorID>8559A50C-01E9-8465-238F-8A243477D8DF</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO_COMPLETA" id="D77F207E-85C4-AB1A-B1C4-2E05F165E85F">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:44:53 UTC</createdTime>
+<generatorID>C4F8566C-7E1C-2EDE-BA4A-3D938B05701F</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECO_UNITARIO" id="B8A0C36C-C611-EBB2-E07C-788C936293D5">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:44:53 UTC</createdTime>
+<generatorID>1FC63689-DB2B-9E91-BBD0-910F7F72A3BC</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DE_BARRAS" id="FC35F0A1-F035-86D4-5981-489381AA03C0">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:44:53 UTC</createdTime>
+<generatorID>5B6D6728-3F87-A43F-7FEF-7A7E07FF1A69</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58845A2E-3757-136B-5866-29BB018A0C83" name="PRODUTOv1_PK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 01:44:53 UTC</createdTime>
+<generatorID>B90B3A3A-2912-7D2B-16E5-30CDE992CDCE</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BB3CA19-FA9F-CD82-9CE1-BD1E385743BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

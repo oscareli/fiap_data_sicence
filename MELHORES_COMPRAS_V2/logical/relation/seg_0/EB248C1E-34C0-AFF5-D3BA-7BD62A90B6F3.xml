@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CHAMADO_FUNCIONARIO_FK" directorySegmentName="seg_0" id="EB248C1E-34C0-AFF5-D3BA-7BD62A90B6F3">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-09 02:07:40 UTC</createdTime>
+<generatorID>8B3D28FB-7D43-F507-AC11-DDC0B951EBA3</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<engineerTo>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+</engineerTo>
+<sourcePk>E2A33EE2-DA82-1141-EE4B-2E20DF43FB0C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE4D4D7B-1326-C818-B9CB-E356538053D3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B19206E-1E6D-909A-3076-C5007756C3E1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
