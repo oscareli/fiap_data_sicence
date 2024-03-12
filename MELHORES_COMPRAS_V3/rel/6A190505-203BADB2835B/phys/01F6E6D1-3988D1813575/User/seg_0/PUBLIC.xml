@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PUBLIC" directorySegmentName="seg_0" id="PUBLIC">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:27 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+</UserOraclev10g>

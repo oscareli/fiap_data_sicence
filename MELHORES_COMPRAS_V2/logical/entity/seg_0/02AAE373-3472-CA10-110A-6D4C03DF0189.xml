@@ -51,8 +51,9 @@
 <createdTime>2024-03-09 01:51:21 UTC</createdTime>
 <generatorID>56C89AFE-88E5-9153-8E75-C320B631F439</generatorID>
 <ownerDesignName>MELHORES_COMPRAS_V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="true"/>
+<item key="4A495EEC-771C-AC3F-E72A-3251E87F5010" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

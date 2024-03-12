@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="FUNCIONARIO" directorySegmentName="seg_0" id="0877A087-3CA3-6DCF-1082-86E5ECF35E28">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cpf" id="03CF0D0E-D944-AE85-647F-D9DFEC37FEED">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nome_departamento" id="0820251F-E4B7-5A04-1A4B-B2C868CBD32E">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="numero_telefone" id="0CEEFC8D-2400-1D63-F932-A950895A69D0">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cargo" id="307D1F38-40FB-5170-0329-BEBB180B55D7">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cod_funcionario" id="31A556C4-48E0-36D7-A6F8-19D8FE26EAD9">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<autoIncrementDDL>DEFAULT_CLAUSE</autoIncrementDDL>
+<defaultValue>seq_pk.NEXTVAL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="email" id="5A41B9B1-E919-EBDC-E6EB-66528FCF9DF3">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_nasc" id="77F1073E-D748-B86E-1330-B0BA62ED6B36">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nome_funcionario" id="B2BD837D-B76A-AF5D-C680-E7CE788E2A47">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FUNCIONARIO_PK" id="CCB90DE8-1A8F-83A9-37A9-6B2DD76F5212">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_1" id="EB1670E7-6CB6-7D00-9BBE-CD2255D643F8">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<nameChanged>true</nameChanged>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

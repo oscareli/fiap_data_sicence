@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODUTO_CATEGORIA_FK" directorySegmentName="seg_0" id="DB888168-0DBF-D24C-816D-C00307F0E75A">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:29:13 UTC</createdTime>
+<generatorID>9AA622EF-9C68-8CD0-E339-37A13D6F47F6</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<engineerTo>
+<item key="6A190505-6D6A-053E-03B6-203BADB2835B" value="true"/>
+</engineerTo>
+<sourcePk>BECECDF6-F2E6-4B46-FBA2-C073373D6FA1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E085B70B-36AF-9C2D-BEE5-EFB518AB9575</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5F2621A-E971-2A90-F5A4-1E0483EC21A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

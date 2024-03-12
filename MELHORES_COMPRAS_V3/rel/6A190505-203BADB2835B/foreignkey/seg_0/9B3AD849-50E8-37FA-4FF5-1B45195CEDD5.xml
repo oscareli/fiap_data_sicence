@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9B3AD849-50E8-37FA-4FF5-1B45195CEDD5" containerWithKeyObject="310C8808-9F6B-3C49-F0EC-D91675F15A4C" localFKIndex="37034E53-3938-2321-D47C-1F2B6A285D12" name="CHAMADO_FUNCIONARIO_FK">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>A76C4C75-7E11-4EEC-2B1F-157FCC2EEA25</importedID>
+<referredTableLongName>FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0877A087-3CA3-6DCF-1082-86E5ECF35E28</referredTableID>
+<keyObject>CCB90DE8-1A8F-83A9-37A9-6B2DD76F5212</keyObject>
+<referredKeyID>CCB90DE8-1A8F-83A9-37A9-6B2DD76F5212</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cod_funcionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

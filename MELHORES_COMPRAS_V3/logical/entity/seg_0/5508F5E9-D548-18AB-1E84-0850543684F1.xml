@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5508F5E9-D548-18AB-1E84-0850543684F1" name="PESSOA JURIDICA CLIENTE">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:29:13 UTC</createdTime>
+<generatorID>29C29386-6DFF-41E3-74BE-3031037E95BB</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<engineerTo>
+<item key="6A190505-6D6A-053E-03B6-203BADB2835B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod cliente" id="456C1106-8647-0C33-A5D3-EFD5A75A9F6E">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:29:13 UTC</createdTime>
+<generatorID>066CF834-CE52-083B-B672-8135F2C96A8F</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<engineerTo>
+<item key="6A190505-6D6A-053E-03B6-203BADB2835B" value="true"/>
+</engineerTo>
+<referedAttribute>F5B65946-3157-7346-9389-6A0AF393CE12</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7DB34796-FC9F-A63B-72DE-996D7E223E31</domain>
+<defaultValue>seq_pk.NEXTVAL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data fundacao" id="53970E60-4AA3-8BEF-1EF6-203D0FF59F3E">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:29:13 UTC</createdTime>
+<generatorID>76340BDC-B0F9-CC93-A12D-8226A244491F</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<engineerTo>
+<item key="6A190505-6D6A-053E-03B6-203BADB2835B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>042920B4-575A-750F-E916-3C914C036555</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cnpj" id="E0604347-0F9A-DD62-487E-57B584161505">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:29:13 UTC</createdTime>
+<generatorID>BF35B1B2-DA31-DB34-EA8F-751639ADED92</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<engineerTo>
+<item key="6A190505-6D6A-053E-03B6-203BADB2835B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0390975D-76F6-8ADE-C3D7-65EF7A00A00B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ie" id="E4C87C24-3728-E681-4EA1-E4294868A4C2">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:29:13 UTC</createdTime>
+<generatorID>C8B18B98-4E2A-2394-3376-7293E04D597A</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<engineerTo>
+<item key="6A190505-6D6A-053E-03B6-203BADB2835B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3845E167-7EBF-9546-8095-5527469298AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A18A272F-E94F-127B-3020-49A896F0BC45" name="PESSOA JURIDICA CLIENTE PK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:29:13 UTC</createdTime>
+<generatorID>BC25CA9D-3C7B-2A87-6628-E5C38C3B8E75</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<engineerTo>
+<item key="6A190505-6D6A-053E-03B6-203BADB2835B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>456C1106-8647-0C33-A5D3-EFD5A75A9F6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

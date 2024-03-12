@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20281734-78EA-40A5-8F21-6482DC25B0BC" name="PESSOA_FISICA_CLIENTE">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>BE608FA5-B312-4482-F944-A08FDA466AA8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_cliente" id="4FF0E22C-E8F5-45DB-2D80-9ED8E7B24F37">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>3FD355E5-222F-92FF-39D2-0381AA3EC9B1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7DB34796-FC9F-A63B-72DE-996D7E223E31</domain>
+<defaultValue>seq_pk.NEXTVAL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>seq_pk</autoIncrementSequenceName>
+<associations>
+<colAssociation fkAssociation="22500850-CDE1-81FD-85CC-871113C849EE" referredColumn="21281EAE-F81A-028B-EA67-17BE8D440A30"/>
+</associations>
+</Column>
+<Column name="cpf" id="FE887E3B-E846-E38D-BD89-E9FD09838F00">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>1686F53B-BB7F-8D24-74DA-D4FF3DC30BD0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7E7D179C-53F9-E50C-E47B-ACD957A0CFBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nasc" id="BBED4A2A-89B0-2EBB-2C25-08D8C9169C22">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>A986D983-62DB-0632-635A-9BDBD13676BC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>042920B4-575A-750F-E916-3C914C036555</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo_biologico" id="7BAF64E7-78F5-9136-86B0-B395CCCC7A2F">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>D4EE3B04-F8D8-B2B0-95E8-FF12F1D6C83E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5811794F-246B-90BB-A444-6D79E092170C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="88A8F50D-36BC-920B-BDED-B5973937DFC5">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>5FCA6B69-42B8-AA8C-93AF-4411D134BDCE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3845E167-7EBF-9546-8095-5527469298AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="370F4C62-CCF0-3025-93A5-998CDEDF1F36" name="PESSOA_FISICA_CLIENTE_PK">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>0C20A8FB-54F9-45C7-4870-52EBAEEB56C4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FF0E22C-E8F5-45DB-2D80-9ED8E7B24F37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A8F2E80-B90F-5750-26B0-EF301926431C" name="INDEX_1v2">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>A6E0BEBC-1779-0CCA-FE58-ACF998BF3701</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE887E3B-E846-E38D-BD89-E9FD09838F00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C707A5CB-D71C-2F0C-6A6E-7AE37FEC3C5B" name="PESSOA_FISICA_CLIENTE_CLIENTE_FK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FF0E22C-E8F5-45DB-2D80-9ED8E7B24F37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="6A190505-6D6A-053E-03B6-203BADB2835B" mainViewID="6E2D2EFA-B88B-E5DE-4D2C-86C843FD8327">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:26:54 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>MELHORES_COMPRAS.sql</fileName>
+<pathName>C:\Users\oscar\Projects\fiap.com.br\Fase 1\fiap_data_sicence</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

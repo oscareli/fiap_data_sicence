@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PESSOA_FISICA_CLIENTE_CLIENTE_FK" directorySegmentName="seg_0" id="16FCE418-0392-B615-5A3C-D154C1544A6E">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:29:13 UTC</createdTime>
+<generatorID>22500850-CDE1-81FD-85CC-871113C849EE</generatorID>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<engineerTo>
+<item key="6A190505-6D6A-053E-03B6-203BADB2835B" value="true"/>
+</engineerTo>
+<sourcePk>32FFAC50-1F5E-95D0-D7CF-AA97C2D1B20A</sourcePk>
+<arc>9D5071DB-85B0-A060-CE81-23F6CD657873</arc>
+<dominantRole>6EE6782C-1846-9A13-8906-6FD2C96F4F8E</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6EE6782C-1846-9A13-8906-6FD2C96F4F8E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6692C808-D805-7878-782A-C837274A6146</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

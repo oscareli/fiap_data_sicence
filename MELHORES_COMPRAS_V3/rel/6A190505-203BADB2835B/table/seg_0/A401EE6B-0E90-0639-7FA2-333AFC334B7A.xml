@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A401EE6B-0E90-0639-7FA2-333AFC334B7A" name="PRODUTO">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>3A8F724A-4399-561B-5284-8A39B3D7F62B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_produto" id="8C2FD9D3-47F3-9679-3AFC-61E8CF8E94A0">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>71203FA7-D3EA-BC45-F10E-38F64AFF53BC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7DB34796-FC9F-A63B-72DE-996D7E223E31</domain>
+<defaultValue>seq_pk.NEXTVAL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>seq_pk</autoIncrementSequenceName>
+</Column>
+<Column name="cod_status_ativo" id="4D9A066A-0F63-99AA-A4DC-59F6EFFCBC92">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>B64F412A-A860-9AF8-F037-A88AC3784D63</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7DB34796-FC9F-A63B-72DE-996D7E223E31</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C100425-57CE-9FF4-ACA0-B1C8610B1BC1" referredColumn="B9229379-F86C-58CB-8F74-B4AFB81A46F6"/>
+</associations>
+</Column>
+<Column name="cod_categoria" id="9317BED5-B35D-F32F-4EC6-E1A69743C489">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>5AA3E90F-3AF8-4AF8-FB7F-8C2AF01F55C9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7DB34796-FC9F-A63B-72DE-996D7E223E31</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AA622EF-9C68-8CD0-E339-37A13D6F47F6" referredColumn="7E966CAE-0562-8667-DF5F-C0F712D3860B"/>
+</associations>
+</Column>
+<Column name="descricao_normal" id="C8894E20-618A-603B-DCF4-79A444D8DB80">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>1C05D465-4EF6-120F-DB96-7DFF180E4241</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6687A3A0-C17B-4C64-BA81-BC2924E3DCF2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao_completa" id="405C2101-6F87-8899-599D-B52ED95A93D8">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>A48D7FAC-9E30-0806-A237-311445F4EA20</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>65DF17B7-9712-E7E0-BEA5-A6C741AB7223</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco_unitario" id="9FF74E73-2565-BBF2-E133-916ADE39A548">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>454273E6-CA51-96A7-A816-0B2A8329E659</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C3686F93-ADA7-043A-1439-11CEEACBF982</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_de_barras" id="79A7AF11-AE74-202C-BF02-CA6E9C0388F6">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>8635D173-13D5-9939-6374-E90025E50D12</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F0103BA-9388-9B66-0E6C-D13AE13B54FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAC2CFA3-B9DC-430B-C61D-F99FA4ABC480" name="PRODUTO_PK">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>266D826E-2D66-1C32-C5DE-79E207A30F59</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C2FD9D3-47F3-9679-3AFC-61E8CF8E94A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D722FAF-736B-1DC7-9951-63D759286F87" name="INDEX_1v3">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>B0116590-505F-9A2E-8D52-AF5794361184</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8894E20-618A-603B-DCF4-79A444D8DB80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54F37F96-1854-7E8C-EAA6-83450DB126E9" name="PRODUTO_CATEGORIA_FK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9317BED5-B35D-F32F-4EC6-E1A69743C489"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B037EAF-110C-8A3B-75A1-7460A47B2478" name="PRODUTO_STATUS_ATIVO_FK">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D9A066A-0F63-99AA-A4DC-59F6EFFCBC92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

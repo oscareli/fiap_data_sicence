@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C7DBDB1C-0101-FB09-D006-9A0F370FD423" mainViewID="CC190017-53DC-94EC-04AB-A28574258ADF">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:26:54 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

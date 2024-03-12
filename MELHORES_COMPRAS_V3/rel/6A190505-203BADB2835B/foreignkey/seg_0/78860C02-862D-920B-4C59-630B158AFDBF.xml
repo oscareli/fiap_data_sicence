@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78860C02-862D-920B-4C59-630B158AFDBF" containerWithKeyObject="F84837E1-5154-E684-B5B0-0FA46196DF8D" localFKIndex="4FEF32A9-AD6F-ACAD-A591-D9390DB22DCA" name="CLIENTE_STATUS_ATIVO_FK">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>203853FD-C29A-591C-BC7C-BDE03E342F7A</importedID>
+<referredTableLongName>STATUS_ATIVO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F260CF3F-7514-B415-E56A-E50153786890</referredTableID>
+<keyObject>A9834231-EFC6-78A5-3B22-DC6682DEA816</keyObject>
+<referredKeyID>A9834231-EFC6-78A5-3B22-DC6682DEA816</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_status_ativo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

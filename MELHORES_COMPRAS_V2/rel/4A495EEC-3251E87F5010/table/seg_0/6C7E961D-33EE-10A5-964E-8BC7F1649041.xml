@@ -180,7 +180,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STATUS_CHAMADO1" id="2AECFA67-7CF6-7046-872C-062D08990A16">
+<Column name="STATUS_CHAMADO2" id="2AECFA67-7CF6-7046-872C-062D08990A16">
 <createdBy>oscar</createdBy>
 <createdTime>2024-03-09 03:00:40 UTC</createdTime>
 <generatorID>79CCE2CA-B256-D853-4578-0D328D3979E8</generatorID>

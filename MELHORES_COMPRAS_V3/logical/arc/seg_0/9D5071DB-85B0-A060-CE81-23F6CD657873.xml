@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="9D5071DB-85B0-A060-CE81-23F6CD657873" name="Arc_1">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:29:51 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<engineerTo>
+<item key="6A190505-6D6A-053E-03B6-203BADB2835B" value="true"/>
+</engineerTo>
+<entity>6EE6782C-1846-9A13-8906-6FD2C96F4F8E</entity>
+<relations>
+<relationID>066CF834-CE52-083B-B672-8135F2C96A8F</relationID>
+<relationID>16FCE418-0392-B615-5A3C-D154C1544A6E</relationID>
+</relations>
+</Arc>

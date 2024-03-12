@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="20938A3F-5677-8650-513C-4CA881665718" containerWithKeyObject="EDF68078-ED54-27CC-D8B3-F7A74A7C74DC" localFKIndex="262DBFA6-4D02-8CD0-32FD-67275DD2810A" name="VENDA_CLIENTE_FK">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>01E55D4A-9AB8-BBB9-56FA-2C9508191C19</importedID>
+<referredTableLongName>CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F84837E1-5154-E684-B5B0-0FA46196DF8D</referredTableID>
+<keyObject>1300F231-C623-F327-59AF-A7A24A375968</keyObject>
+<referredKeyID>1300F231-C623-F327-59AF-A7A24A375968</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_Cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

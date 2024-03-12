@@ -10,7 +10,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_CLIENTE" id="2C2D8305-12AF-5DD7-4212-85521CEEAD9C">
+<Column name="CLIENTE_COD_CLIENTE" id="2C2D8305-12AF-5DD7-4212-85521CEEAD9C">
 <sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
 <createdBy>oscar</createdBy>
 <createdTime>2024-03-09 00:42:33 UTC</createdTime>

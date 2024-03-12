@@ -57,7 +57,6 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AA68E73D-082B-64A1-F525-82F558FE28D2"/>
 <colUsage columnID="5455BA7E-B46C-A807-14C4-82D8691D0636"/>
 </indexColumnUsage>
 </ind_PK_UK>

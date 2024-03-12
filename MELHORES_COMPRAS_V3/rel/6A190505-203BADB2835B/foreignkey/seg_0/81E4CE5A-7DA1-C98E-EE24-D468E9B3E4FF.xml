@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="81E4CE5A-7DA1-C98E-EE24-D468E9B3E4FF" containerWithKeyObject="310C8808-9F6B-3C49-F0EC-D91675F15A4C" localFKIndex="3E3F2360-0CE3-2A1D-BB0E-2ADA9251841B" name="CHAMADO_TIPO_CHAMADO_FK">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>22C584C1-E7C2-0503-F96D-3784F244F829</importedID>
+<referredTableLongName>TIPO_CHAMADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76911B97-0FFB-8797-BAD7-722431283367</referredTableID>
+<keyObject>684FBFFE-A1E5-ADE7-B980-A8C60C80D688</keyObject>
+<referredKeyID>684FBFFE-A1E5-ADE7-B980-A8C60C80D688</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_tipo_chamado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

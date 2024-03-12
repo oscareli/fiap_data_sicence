@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MELHORES_COMPRAS_V3" id="39E1CEBF-D76E-6F3C-5D91-F7049639F1FC" version="3.5">
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:26:54 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>39E1CEBF-D76E-6F3C-5D91-F7049639F1FC</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F4B566A7-C387-C398-5B37-6321C6D2248A">
+<designStoragePath>C:\MELHORES_COMPRAS</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

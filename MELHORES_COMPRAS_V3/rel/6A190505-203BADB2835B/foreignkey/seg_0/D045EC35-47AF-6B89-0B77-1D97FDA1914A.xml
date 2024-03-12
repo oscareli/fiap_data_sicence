@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D045EC35-47AF-6B89-0B77-1D97FDA1914A" containerWithKeyObject="E24A00A1-71A2-2DCB-6CB4-6052059FD6C0" localFKIndex="EDCCFD50-689B-D4A2-6517-546C47D98C6F" name="VIDEO_CLASSIFICACAO_VIDEO_FK">
+<sourceDDLFile>MELHORES_COMPRAS.sql</sourceDDLFile>
+<createdBy>oscar</createdBy>
+<createdTime>2024-03-12 03:27:29 UTC</createdTime>
+<ownerDesignName>MELHORES_COMPRAS_V3</ownerDesignName>
+<importedID>0ECE56D3-9D07-2007-8364-F485D4E1BC62</importedID>
+<referredTableLongName>CLASSIFICACAO_VIDEO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FDD213C-31FB-F630-3DFC-6C582D051D60</referredTableID>
+<keyObject>8F52E5FA-3979-D9C3-0F08-CCC2C79206A5</keyObject>
+<referredKeyID>8F52E5FA-3979-D9C3-0F08-CCC2C79206A5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cod_classificacao_video</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
