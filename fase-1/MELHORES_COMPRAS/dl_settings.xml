@@ -391,7 +391,7 @@
 	<model_compare_storage_props_filter>
 	</model_compare_storage_props_filter>
 	<naming_options>
-		<model_options objectid="4A495EEC-771C-AC3F-E72A-3251E87F5010">
+		<model_options objectid="6A190505-6D6A-053E-03B6-203BADB2835B">
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
@@ -399,7 +399,7 @@
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 		</model_options>
-		<model_options objectid="9E0167FB-885D-1468-53A1-A24D303DD7C8">
+		<model_options objectid="C7DBDB1C-0101-FB09-D006-9A0F370FD423">
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Entity" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Attribute" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.EntityView" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
@@ -431,8 +431,8 @@
 				<subviews value="70"/>
 				<arcs value="70"/>
 				<physical_models_estimates>
-							<physical_model_4A495EEC-771C-AC3F-E72A-3251E87F5010_Oracle_Database_11g>
-								<physical_model_name value="Oracle Database 11g"/>
+							<physical_model_6A190505-6D6A-053E-03B6-203BADB2835B_Oracle_Database_21c>
+								<physical_model_name value="Oracle Database 21c"/>
 								<clusters value="70"/>
 								<contexts value="70"/>
 								<dBs value="70"/>
@@ -458,7 +458,7 @@
 								<users value="70"/>
 								<views value="70"/>
 								<triggers value="70"/>
-							</physical_model_4A495EEC-771C-AC3F-E72A-3251E87F5010_Oracle_Database_11g>
+							</physical_model_6A190505-6D6A-053E-03B6-203BADB2835B_Oracle_Database_21c>
 				</physical_models_estimates>
 			</relational_model_0_estimates>
 		</relational_model_estimates>
