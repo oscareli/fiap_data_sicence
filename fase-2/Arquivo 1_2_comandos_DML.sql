@@ -120,6 +120,3 @@ WHERE cd_produto = 1;
 -- t) Confirme todas as transações pendentes.
 COMMIT;
 
-
-
-
