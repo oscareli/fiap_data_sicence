@@ -12,7 +12,7 @@ INSERT INTO mc_funcionario (cd_funcionario, cd_depto, nm_funcionario, dt_nascime
 INSERT INTO mc_funcionario (cd_funcionario, cd_depto, nm_funcionario, dt_nascimento, ds_cargo, vl_salario, st_func) VALUES (3, 2, 'Julia Martins', TO_DATE('1985-09-30', 'YYYY-MM-DD'), 'Contadora', 4000.00, 'A');
 
 -- c) Popular ESTADOS, CIDADES, BAIRROS e ENDEREÇOS
--- Estado: São Paulo (SP)
+-- Estados: São Paulo e Rio de Janeiro
 INSERT INTO mc_estado (sg_estado, nm_estado) VALUES ('SP', 'São Paulo');
 INSERT INTO mc_estado (sg_estado, nm_estado) VALUES ('RJ', 'Rio de Janeiro');
 
@@ -59,8 +59,8 @@ INSERT INTO mc_categoria_prod (cd_categoria, tp_categoria, ds_categoria, st_cate
 INSERT INTO mc_categoria_prod (cd_categoria, tp_categoria, ds_categoria, st_categoria) VALUES (3, 'P', 'Pet Shop', 'A');
 
 -- h) Cadastro de Produtos
-INSERT INTO mc_produto (cd_produto, cd_categoria, ds_produto, vl_unitario, ds_completa_prod, st_produto) VALUES (1, 1, 'Smartphone X', 1500.00, 'Smartphone X, última geração', 'A');
--- Adicione mais 4 produtos seguindo o exemplo acima, variando a categoria e os detalhes conforme necessário.
+INSERT INTO mc_produto (cd_produto, cd_categoria, ds_produto, vl_unitario, ds_completa_prod, st_produto) VALUES (1, 1, 'Smartphone', 1500.00, 'Smartphone, última geração', 'A');
+INSERT INTO mc_produto (cd_produto, cd_categoria, ds_produto, vl_unitario, ds_completa_prod, st_produto) VALUES (1, 1, 'Notebook', 3500.00, 'Notebook Ultra X, 8GB de Ram, HD 1TB, Processador I5', 'A');
 
 -- i) Cadastro de Categorias para Vídeos
 INSERT INTO mc_categoria_prod (cd_categoria, tp_categoria, ds_categoria, st_categoria) VALUES (4, 'V', 'Instalação do produto', 'A');
@@ -68,8 +68,8 @@ INSERT INTO mc_categoria_prod (cd_categoria, tp_categoria, ds_categoria, st_cate
 
 -- j) Cadastro de Vídeos de Produtos
 -- Supondo que as sequências de categoria de vídeos são 4 e 5 para as categorias criadas anteriormente.
-INSERT INTO mc_sgv_produto_video (cd_produto, nr_sequencia, cd_categoria, ds_path_video_prod, st_video_prod) VALUES (1, 1, 4, 'path/to/instalacao/video.mp4', 'A');
-INSERT INTO mc_sgv_produto_video (cd_produto, nr_sequencia, cd_categoria, ds_path_video_prod, st_video_prod) VALUES (1, 2, 5, 'path/to/uso/cotidiano/video.mp4', 'A');
+INSERT INTO mc_sgv_produto_video (cd_produto, nr_sequencia, cd_categoria, ds_path_video_prod, st_video_prod) VALUES (1, 1, 4, 'instalacao.mp4', 'A');
+INSERT INTO mc_sgv_produto_video (cd_produto, nr_sequencia, cd_categoria, ds_path_video_prod, st_video_prod) VALUES (1, 2, 5, 'cotidiano.mp4', 'A');
 
 -- k) Cadastro de Visualizações de Vídeos de Produtos
 -- Supondo que os clientes 1 e 2 visualizaram os vídeos.
@@ -111,11 +111,13 @@ WHERE nr_cliente = 1;
 
 -- r) Tente eliminar um estado que tenha uma cidade cadastrada. Isso foi possível? Justifique o motivo.
 DELETE FROM mc_estado WHERE sg_estado = 'SP';
+-- Não foi possível, porque existe um cadastro de uma cidade violando uma constraint de chave primária
 
 -- s) Selecione um produto e tente atualizar o status do produto com o status X. Isso foi possível? Justifique o motivo.
 UPDATE mc_produto 
 SET st_produto = 'X' 
 WHERE cd_produto = 1;
+-- Não foi possível porque isso viola uma constraint de status
 
 -- t) Confirme todas as transações pendentes.
 COMMIT;
