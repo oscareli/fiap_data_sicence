@@ -78,7 +78,7 @@ INSERT INTO mc_sgv_visualizacao_video (cd_visualizacao_video, nr_cliente, cd_pro
 
 -- l) Confirme todas as transações pendentes (muito importante).
 -- comando será executado ao final de todas as alterações
--- commit;
+COMMIT;
 
 -- m) Selecione um específico funcionário e atualize o Cargo e aplique 12% de aumento de salário.
 UPDATE mc_funcionario 
@@ -121,4 +121,3 @@ WHERE cd_produto = 1;
 
 -- t) Confirme todas as transações pendentes.
 COMMIT;
-
