@@ -1,0 +1,6 @@
+{
+    "cSpell.language": "en,pt-BR,en-US",
+    "python.analysis.extraPaths": [
+        "./fase-2/desafio_python/Infrastructure"
+    ]
+}
