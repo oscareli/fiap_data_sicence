@@ -18,15 +18,33 @@ INSERT INTO mc_estado (sg_estado, nm_estado) VALUES ('RJ', 'Rio de Janeiro');
 
 -- Cidades: São Paulo e Rio de Janeiro
 INSERT INTO mc_cidade (cd_cidade, sg_estado, nm_cidade) VALUES (1, 'SP', 'São Paulo');
-INSERT INTO mc_cidade (cd_cidade, sg_estado, nm_cidade) VALUES (2, 'RJ', 'Rio de Janeiro');
+INSERT INTO mc_cidade (cd_cidade, sg_estado, nm_cidade) VALUES (2, 'SP', 'Diadema');
+INSERT INTO mc_cidade (cd_cidade, sg_estado, nm_cidade) VALUES (3, 'RJ', 'Niterói');
+INSERT INTO mc_cidade (cd_cidade, sg_estado, nm_cidade) VALUES (4, 'RJ', 'Rio de Janeiro');
 
 -- Bairros: Pinheiros em São Paulo e Copacabana no Rio de Janeiro
 INSERT INTO mc_bairro (cd_bairro, cd_cidade, nm_bairro, nm_zona_bairro) VALUES (1, 1, 'Pinheiros', 'Zona Oeste');
-INSERT INTO mc_bairro (cd_bairro, cd_cidade, nm_bairro, nm_zona_bairro) VALUES (2, 2, 'Copacabana', 'Zona Sul');
+INSERT INTO mc_bairro (cd_bairro, cd_cidade, nm_bairro, nm_zona_bairro) VALUES (2, 2, 'Vila Nogueira', 'ABC');
+INSERT INTO mc_bairro (cd_bairro, cd_cidade, nm_bairro, nm_zona_bairro) VALUES (3, 3, 'Copacabana', 'Zona Sul');
+INSERT INTO mc_bairro (cd_bairro, cd_cidade, nm_bairro, nm_zona_bairro) VALUES (4, 4, 'Botafogo', 'Zona Sul');
 
 -- Endereços: Vamos criar apenas para o bairro de Pinheiros como exemplo
+-- Adicionando mais endereços em Pinheiros, São Paulo
 INSERT INTO mc_logradouro (cd_logradouro, cd_bairro, nm_logradouro, nr_cep) VALUES (1, 1, 'Rua dos Pinheiros', 05422000);
-INSERT INTO mc_logradouro (cd_logradouro, cd_bairro, nm_logradouro, nr_cep) VALUES (2, 1, 'Av. Rebouças', 05402000);
+INSERT INTO mc_logradouro (cd_logradouro, cd_bairro, nm_logradouro, nr_cep) VALUES (2, 1, 'Rua Teodoro Sampaio', 05406000);
+
+-- Adicionando mais endereços em Vila Nogueira, Diadema
+INSERT INTO mc_logradouro (cd_logradouro, cd_bairro, nm_logradouro, nr_cep) VALUES (3, 2, 'Rua Alabastro', 09942100);
+INSERT INTO mc_logradouro (cd_logradouro, cd_bairro, nm_logradouro, nr_cep) VALUES (4, 2, 'Rua Topázio', 09940090);
+
+-- Adicionando mais endereços em Copacabana, Rio de Janeiro
+INSERT INTO mc_logradouro (cd_logradouro, cd_bairro, nm_logradouro, nr_cep) VALUES (5, 3, 'Rua Figueiredo Magalhães', 22031011);
+INSERT INTO mc_logradouro (cd_logradouro, cd_bairro, nm_logradouro, nr_cep) VALUES (6, 3, 'Rua Xavier da Silveira', 22061010);
+
+-- Adicionando mais endereços em Botafogo, Rio de Janeiro
+INSERT INTO mc_logradouro (cd_logradouro, cd_bairro, nm_logradouro, nr_cep) VALUES (7, 4, 'Rua São Clemente', 22260000);
+INSERT INTO mc_logradouro (cd_logradouro, cd_bairro, nm_logradouro, nr_cep) VALUES (8, 4, 'Rua Conde de Irajá', 22271010);
+
 
 -- d) Cadastro de ENDEREÇO FUNCIONÁRIO para 2 funcionários
 -- Vou escolher os funcionários de id 1 e 3, cada um em uma cidade diferente.
@@ -52,6 +70,7 @@ INSERT INTO mc_end_cli (nr_cliente, cd_logradouro_cli, nr_end, dt_inicio, st_end
 
 -- f) Tentativa de Cadastro de Novo Cliente com Login Existente
 INSERT INTO mc_cliente (nr_cliente, nm_cliente, nm_login, ds_senha, st_cliente) VALUES (4, 'Pedro Alcantara', 'joaosilva', 'senha987', 'A');
+-- Não é possível inserir o mesmo id já cadatrado para outro registro pois viola a constraint de chave primária
 
 -- g) Cadastro de Categorias para Produtos
 INSERT INTO mc_categoria_prod (cd_categoria, tp_categoria, ds_categoria, st_categoria) VALUES (1, 'P', 'Eletrônicos', 'A');
@@ -59,8 +78,12 @@ INSERT INTO mc_categoria_prod (cd_categoria, tp_categoria, ds_categoria, st_cate
 INSERT INTO mc_categoria_prod (cd_categoria, tp_categoria, ds_categoria, st_categoria) VALUES (3, 'P', 'Pet Shop', 'A');
 
 -- h) Cadastro de Produtos
-INSERT INTO mc_produto (cd_produto, cd_categoria, ds_produto, vl_unitario, ds_completa_prod, st_produto) VALUES (1, 1, 'Smartphone', 1500.00, 'Smartphone, última geração', 'A');
-INSERT INTO mc_produto (cd_produto, cd_categoria, ds_produto, vl_unitario, ds_completa_prod, st_produto) VALUES (1, 1, 'Notebook', 3500.00, 'Notebook Ultra X, 8GB de Ram, HD 1TB, Processador I5', 'A');
+-- Corrigindo e adicionando mais registros de produtos
+INSERT INTO mc_produto (cd_produto, cd_categoria, ds_produto, vl_unitario, ds_completa_prod, st_produto) VALUES (1, 1, 'Smartphone', 1500.00, 'Smartphone de última geração com 64GB', 'A');
+INSERT INTO mc_produto (cd_produto, cd_categoria, ds_produto, vl_unitario, ds_completa_prod, st_produto) VALUES (2, 1, 'Notebook', 3500.00, 'Notebook Ultra X, 8GB de Ram, HD 1TB, Processador I5', 'A');
+INSERT INTO mc_produto (cd_produto, cd_categoria, ds_produto, vl_unitario, ds_completa_prod, st_produto) VALUES (3, 1, 'Tablet', 1200.00, 'Tablet Pro Max, 32GB, Tela 10 polegadas', 'A');
+INSERT INTO mc_produto (cd_produto, cd_categoria, ds_produto, vl_unitario, ds_completa_prod, st_produto) VALUES (4, 1, 'Impressora', 800.00, 'Impressora Laser, modelo L120, preto e branco', 'A');
+INSERT INTO mc_produto (cd_produto, cd_categoria, ds_produto, vl_unitario, ds_completa_prod, st_produto) VALUES (5, 1, 'Mouse', 150.00, 'Mouse sem fio, 2400dpi, recarregável', 'A');
 
 -- i) Cadastro de Categorias para Vídeos
 INSERT INTO mc_categoria_prod (cd_categoria, tp_categoria, ds_categoria, st_categoria) VALUES (4, 'V', 'Instalação do produto', 'A');
@@ -78,7 +101,7 @@ INSERT INTO mc_sgv_visualizacao_video (cd_visualizacao_video, nr_cliente, cd_pro
 
 -- l) Confirme todas as transações pendentes (muito importante).
 -- comando será executado ao final de todas as alterações
-COMMIT;
+commit;
 
 -- m) Selecione um específico funcionário e atualize o Cargo e aplique 12% de aumento de salário.
 UPDATE mc_funcionario 
@@ -106,7 +129,7 @@ WHERE cd_funcionario = 2;
 -- q) Selecione um endereço de cliente e coloque o status como I(nativo) e preencha a data de término como sendo a data limite de entrega do trabalho. Utilize a função to_date para registrar esse novo valor da data.
 UPDATE mc_end_cli 
 SET st_end = 'I', 
-    dt_termino = TO_DATE('30-04-2024', 'DD-MM-YYYY') 
+    dt_termino = TO_DATE('16-04-2024', 'DD-MM-YYYY') 
 WHERE nr_cliente = 1;
 
 -- r) Tente eliminar um estado que tenha uma cidade cadastrada. Isso foi possível? Justifique o motivo.
@@ -121,3 +144,4 @@ WHERE cd_produto = 1;
 
 -- t) Confirme todas as transações pendentes.
 COMMIT;
+
