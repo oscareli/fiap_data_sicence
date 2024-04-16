@@ -10,11 +10,11 @@ class Produto:
 # Função para pedir as informações de cada produto ao usuário
 def solicitar_informacoes_produto():
     while True:
-        descricao = input("Digite a descrição do produto: ")
-        valor_input = input("Digite o valor do produto (ex: 19.99): ")
-        tipo_embalagem = input("Digite o tipo de embalagem do produto: ")
-
         try:
+            descricao = input("Digite a descrição do produto: ")
+            valor_input = input("Digite o valor do produto (ex: 19.99): ")
+            tipo_embalagem = input("Digite o tipo de embalagem do produto: ")
+
             valor = float(valor_input)
             return Produto(descricao, valor, tipo_embalagem)
         except ValueError:
